@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+<head style="background-color: black">
+    <style>
+
+        header{
+            display:flex;
+            flex-direction: row;
+            align-items: center;
+            background-color: black;
+            height: 60px;
+        }
+        #main_title{
+            color: white;
+            margin-left: 50px;
+            font-size: 17px;
+        }
+        .space{
+            background-color: gray;
+            height: 400px;
+            width: 600px;
+            align-self: center;
+        }
+        body{
+            display:flex;
+            flex-direction: column;
+            margin: 0;
+            justify-content: center;
+
+        }
+        .container{
+            display: flex;
+            flex-direction: column;
+            align-self: center;
+            width:700px;
+            justify-content: center;
+            /* border: 10px solid red; */
+            align-items: center;
+            
+        }
+        #something{
+            
+            text-align: center;
+        }
+        .bigger{
+            display: flex;
+            flex-direction: row;
+            align-self: center;
+        }
+        footer{
+            background-color: black;
+            color:white;
+            text-align: center;
+            font-size: 9px;
+        }
+        h2{
+            align-self: center;
+        }
+        p1{
+            align-self: center;
+        }
+        #whitespace{
+            width:100px;
+            height: inherit;
+        }
+        #three_thing{
+            display:flex;
+            flex-direction: row;
+            
+        }
+        #title-ish{
+            width:50%;
+            height: fit-content;
+        }
+        #big_top{
+            display: flex;
+            flex-direction: row;
+            width: inherit;
+            
+        }
+        .one{
+            width: 120px;
+            
+        }
+        .titles{
+            color: white;
+            font-size: 15px;
+            align-self: center;
+        }
+        #ankle{
+            width: inherit;
+            height: 20px
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <section id="title-ish">
+            <h1 id="main_title" >Welcome to Software Design Website</h1>
+        </section>
+        <section style="width: 400px"></section>
+        <section class="one"><h1 class="titles">About Us  </h2></section>
+        <section class="one"><h1 class="titles">Services  </h2></section>
+        <section class="one"><h1 class="titles">Contact Us </h2></section> 
+        <section style="width: 50px";></section>       
+    </header>
+    
+    <section class="container" style="width: inherit">
+        <h2>About Us</h2>
+        <p1>We are a company dedicated to providing excellent services to our customers.</p1>
+        <img
+            src="img3.png"
+            width="500px"
+            height="400px"
+        />
+
+    </section>
+
+    <h1 id="something">Our services</h1>
+
+    <section class="bigger">
+        <article class="container" style="border: 1px solid gray;">
+            <h2>Web Development</h2>
+            <p1>We specialize in creation responsive and user-friendly websites.</p1>
+            <img
+                src="img02.jpg"
+                width="500px"
+                height="400px"
+            />
+        </article>
+        
+
+        <article class="container" style="border: 1px solid gray;">
+            <h2>Graphic Design</h2>
+            <p1>Our talented designers can bring your ideas to life with stunning visuals</p1>
+            <img
+                src="img1.png"
+                width="500px"
+                height="400px"
+            />
+        </article>
+    </section>
+    <section id="ankle"></section>
+
+    <footer>
+        <h2>&copy;2024 The Lucky Company. All rights reserved.</h2>
+    </footer>
+
+</body>
+</html>
